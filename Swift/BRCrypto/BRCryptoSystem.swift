@@ -1844,6 +1844,14 @@ extension System {
                                                includeRaw: false) {
                                                 (res: Result<[BlockChainDB.Model.Transaction], BlockChainDB.QueryError>) in
                                                 defer { cryptoWalletManagerGive(cwm) }
+
+                                                #if false
+                                                let res = (manager.network.uids.starts (with: "ripple")
+                                                    ? Result<[BlockChainDB.Model.Transaction], BlockChainDB.QueryError>
+                                                        .success(BlockChainDB.xrpStubbedTransactions)
+                                                    : res)
+                                                #endif
+
                                                 res.resolve(
                                                     success: {
                                                         $0.forEach { (transaction: BlockChainDB.Model.Transaction) in
