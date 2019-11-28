@@ -1,0 +1,70 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/ajv/devel/breadwallet-android",
+      "sdkFolder": "/Users/ajv/Library/Android/sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/ajv/devel/breadwallet-android/core/Java/Core/build/intermediates",
+      "gradleModulePathName": ":CoreLibrary",
+      "moduleRootFolder": "/Users/ajv/devel/breadwallet-android/core/Java/Core",
+      "makeFile": "/Users/ajv/devel/breadwallet-android/core/Java/Core/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/Users/ajv/devel/breadwallet-android/.cxx",
+      "cxxFolder": "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx",
+      "ndkFolder": "/Users/ajv/Library/Android/sdk/ndk/20.1.5948944",
+      "ndkVersion": "20.1.5948944",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "onMainnetRelease",
+    "soFolder": "/Users/ajv/devel/breadwallet-android/core/Java/Core/build/intermediates/cmake/onMainnetRelease/lib",
+    "objFolder": "/Users/ajv/devel/breadwallet-android/core/Java/Core/build/intermediates/cmake/onMainnetRelease/obj",
+    "jsonFolder": "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onMainnetRelease",
+    "gradleBuildOutputFolder": "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cxx/onMainnetRelease",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "X86_64",
+  "abiPlatformVersion": 23,
+  "cxxBuildFolder": "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onMainnetRelease/x86_64",
+  "jsonFile": "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onMainnetRelease/x86_64/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cxx/onMainnetRelease/x86_64",
+  "objFolder": "/Users/ajv/devel/breadwallet-android/core/Java/Core/build/intermediates/cmake/onMainnetRelease/obj/x86_64",
+  "buildCommandFile": "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onMainnetRelease/x86_64/build_command.txt",
+  "buildOutputFile": "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onMainnetRelease/x86_64/build_output.txt",
+  "modelOutputFile": "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onMainnetRelease/x86_64/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cxx/onMainnetRelease/x86_64/CMakeLists.txt",
+    "toolchainWrapperFile": "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cxx/onMainnetRelease/x86_64/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cxx/onMainnetRelease/x86_64/build_generation_state.json",
+    "cacheKeyFile": "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cxx/onMainnetRelease/x86_64/compiler_cache_key.json",
+    "compilerCacheUseFile": "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cxx/onMainnetRelease/x86_64/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cxx/onMainnetRelease/x86_64/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cxx/onMainnetRelease/x86_64/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onMainnetRelease/x86_64/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onMainnetRelease/x86_64/compile_commands.json"
+}

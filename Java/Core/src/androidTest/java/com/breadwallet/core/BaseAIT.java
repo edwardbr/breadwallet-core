@@ -10,7 +10,7 @@
 package com.breadwallet.core;
 
 import android.content.Context;
-import android.support.test.InstrumentationRegistry;
+import androidx.test.platform.app.InstrumentationRegistry;
 
 public class BaseAIT {
     protected Context context = InstrumentationRegistry.getInstrumentation().getContext();

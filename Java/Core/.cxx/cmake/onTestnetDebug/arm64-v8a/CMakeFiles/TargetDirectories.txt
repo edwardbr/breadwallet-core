@@ -1,0 +1,3 @@
+/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/arm64-v8a/CMakeFiles/core.dir

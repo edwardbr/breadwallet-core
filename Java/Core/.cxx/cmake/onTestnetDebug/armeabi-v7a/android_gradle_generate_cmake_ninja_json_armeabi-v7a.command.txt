@@ -1,0 +1,15 @@
+Executable : /Users/ajv/Library/Android/sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/Users/ajv/devel/breadwallet-android/core/Java/Core
+-B/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/armeabi-v7a
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_PLATFORM=android-23
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/ajv/devel/breadwallet-android/core/Java/Core/build/intermediates/cmake/onTestnetDebug/obj/armeabi-v7a
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944
+-DCMAKE_C_FLAGS=-DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG
+-DCMAKE_TOOLCHAIN_FILE=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/ajv/Library/Android/sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+

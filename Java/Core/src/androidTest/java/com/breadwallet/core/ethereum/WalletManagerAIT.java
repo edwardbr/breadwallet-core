@@ -9,7 +9,7 @@
  */
 package com.breadwallet.core.ethereum;
 
-import android.support.test.runner.AndroidJUnit4;
+import androidx.test.ext.junit.runners.AndroidJUnit4;
 
 import com.breadwallet.core.BaseAIT;
 

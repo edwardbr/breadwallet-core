@@ -9,7 +9,7 @@
  */
 package com.breadwallet.core.ethereum;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 import com.breadwallet.core.BRCoreJniReference;
 
@@ -20,7 +20,6 @@ import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 
 import static com.breadwallet.core.ethereum.BREthereumToken.jniGetTokenBRD;
-import static com.breadwallet.core.ethereum.BREthereumToken.jniTokenAll;
 
 /**
  *

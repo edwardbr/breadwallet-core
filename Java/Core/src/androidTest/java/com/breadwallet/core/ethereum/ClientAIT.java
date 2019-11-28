@@ -10,7 +10,7 @@
 package com.breadwallet.core.ethereum;
 
 import android.content.Context;
-import android.support.test.InstrumentationRegistry;
+import androidx.test.platform.app.InstrumentationRegistry;
 
 import java.io.File;
 import java.util.ArrayList;

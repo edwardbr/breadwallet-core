@@ -1,0 +1,554 @@
+
+{
+	"buildFiles" : [ "/Users/ajv/devel/breadwallet-android/core/Java/Core/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/ajv/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86 --target clean"
+	],
+	"libraries" : 
+	{
+		"core-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "core",
+			"buildCommand" : "/Users/ajv/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86 --target core",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/support/BRAddress.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/support/BRAssert.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/support/BRBIP32Sequence.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/support/BRBIP39Mnemonic.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/support/BRBase58.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/support/BRBech32.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/support/BRCrypto.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/support/BRFileService.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/support/BRKey.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/support/BRKeyECIES.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/support/BRSet.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/bitcoin/BRBIP38Key.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/bitcoin/BRBloomFilter.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/bitcoin/BRChainParams.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/bitcoin/BRMerkleBlock.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/bitcoin/BRPaymentProtocol.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/bitcoin/BRPeer.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/bitcoin/BRPeerManager.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/bitcoin/BRTransaction.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/bitcoin/BRWallet.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/bitcoin/BRWalletManager.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/bcash/BRBCashAddr.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/bcash/BRBCashParams.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/jni/BRCoreJni.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/jni/com_breadwallet_core_BRCoreJniReference.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/jni/com_breadwallet_core_BRCoreAddress.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/jni/com_breadwallet_core_BRCoreChainParams.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/jni/com_breadwallet_core_BRCorePeer.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/jni/com_breadwallet_core_BRCoreMasterPubKey.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/jni/com_breadwallet_core_BRCoreKey.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/jni/com_breadwallet_core_BRCoreMerkleBlock.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/jni/com_breadwallet_core_BRCorePeerManager.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/jni/com_breadwallet_core_BRCoreTransaction.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/jni/com_breadwallet_core_BRCoreTransactionInput.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/jni/com_breadwallet_core_BRCoreTransactionOutput.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/jni/com_breadwallet_core_BRCorePaymentProtocol.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/jni/com_breadwallet_core_BRCoreWallet.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/util/BRKeccak.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/util/BRUtilHex.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/util/BRUtilMath.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/util/BRUtilMathParse.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/rlp/BRRlpCoder.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/event/BREvent.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/event/BREventAlarm.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/event/BREventQueue.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/base/BREthereumAddress.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/base/BREthereumEther.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/base/BREthereumGas.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/base/BREthereumHash.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/base/BREthereumData.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/base/BREthereumSignature.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/blockchain/BREthereumAccountState.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/blockchain/BREthereumBlock.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/blockchain/BREthereumBloomFilter.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/blockchain/BREthereumLog.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/blockchain/BREthereumNetwork.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/blockchain/BREthereumTransaction.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/blockchain/BREthereumTransactionReceipt.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/blockchain/BREthereumTransactionStatus.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/blockchain/BREthereumProofOfWork.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/contract/BREthereumContract.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/contract/BREthereumToken.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/mpt/BREthereumMPT.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/les/msg/BREthereumMessageDIS.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/les/msg/BREthereumMessageLES.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/les/msg/BREthereumMessageP2P.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/les/msg/BREthereumMessagePIP.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/les/BREthereumLES.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/les/BREthereumLESFrameCoder.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/les/BREthereumLESRandom.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/les/BREthereumMessage.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/les/BREthereumNode.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/les/BREthereumNodeEndpoint.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/les/BREthereumProvision.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/bcs/BREthereumBCS.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/bcs/BREthereumBCSEvent.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/bcs/BREthereumBCSSync.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/ewm/BREthereumAccount.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/ewm/BREthereumAmount.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/ewm/BREthereumTransfer.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/ewm/BREthereumWallet.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/ewm/BREthereumEWM.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/ewm/BREthereumEWMClient.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/core/ethereum/ewm/BREthereumEWMEvent.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/jni/ethereum/com_breadwallet_core_ethereum_BREthereumEWM.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/jni/ethereum/com_breadwallet_core_ethereum_BREthereumNetwork.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android23 --gcc-toolchain=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dcore_EXPORTS -I../../../../src/main/cpp/core -I../../../../src/main/cpp/core/support -I../../../../src/main/cpp/core/bitcoin -I../../../../src/main/cpp/core/bcash -I../../../../src/main/cpp/core/ethereum -I../../../../src/main/cpp/core/secp256k1  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -DBITCOIN_TESTNET -DDEBUG -DBITCOIN_DEBUG -std=c99 -DANDROID_STL=gnustl_static -DANDROID_TOOLCHAIN=clang -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/src/main/cpp/jni/ethereum/com_breadwallet_core_ethereum_BREthereumToken.c",
+					"workingDirectory" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/.cxx/cmake/onTestnetDebug/x86"
+				}
+			],
+			"output" : "/Users/ajv/devel/breadwallet-android/core/Java/Core/build/intermediates/cmake/onTestnetDebug/obj/x86/libcore.so",
+			"toolchain" : "7169929124514521677"
+		}
+	},
+	"toolchains" : 
+	{
+		"7169929124514521677" : 
+		{
+			"cCompilerExecutable" : "/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/ajv/Library/Android/sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
