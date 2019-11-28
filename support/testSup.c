@@ -5,6 +5,7 @@
 //  Created by Ed Gamble on 1/25/19.
 //  Copyright © 2019 breadwallet LLC
 //
+#define _XOPEN_SOURCE 500
 
 #include <stdio.h>
 #include <pthread.h>
@@ -21,17 +22,17 @@
 /// MARK: - Helpers
 
 static int _pthread_cond_timedwait_relative (pthread_cond_t *cond, pthread_mutex_t *mutex, const struct timespec *reltime) {
-#if defined(__ANDROID__)
-        struct timeval t;
-        gettimeofday(&t, NULL);
-
-        struct timespec timeout;
-        timeout.tv_sec  = reltime->tv_sec + t.tv_sec;
-        timeout.tv_nsec = reltime->tv_nsec +t.tv_usec*1000;
-
-        return pthread_cond_timedwait (cond, mutex, &timeout);
+#if defined(OSX)
+    return pthread_cond_timedwait_relative_np(cond, mutex, reltime);
 #else
-        return pthread_cond_timedwait_relative_np (cond, mutex, reltime);
+    struct timeval t;
+    gettimeofday(&t, NULL);
+
+    struct timespec timeout;
+    timeout.tv_sec = reltime->tv_sec + t.tv_sec;
+    timeout.tv_nsec = reltime->tv_nsec + t.tv_usec * 1000;
+
+    return pthread_cond_timedwait(cond, mutex, &timeout);
 #endif
 }
 

@@ -21,9 +21,19 @@
 #include "BRTransaction.h"
 #include "BRWallet.h"
 
+#if defined(DEBUG)
+#define static_on_release
+#else
+#define static_on_release static
+#endif
+
 #ifdef __cplusplus
 extern "C" {
 #endif
+
+static_on_release BRFileServiceTypeSpecification* fileServiceSpecifications;
+static_on_release size_t fileServiceSpecificationsCount;
+
 
 /// MARK: - Forward Declarations
 

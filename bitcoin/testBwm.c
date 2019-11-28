@@ -1293,7 +1293,7 @@ fileServiceErrorHandler (BRFileServiceContext context,
     // ...
 }
 
-extern BRFileServiceTypeSpecification fileServiceSpecifications[];
+extern BRFileServiceTypeSpecification *fileServiceSpecifications;
 extern size_t fileServiceSpecificationsCount;
 
 // Crib these from BRWalletManager.c

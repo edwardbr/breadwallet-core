@@ -26,6 +26,8 @@
 #ifndef BRFileService_h
 #define BRFileService_h
 
+#undef unix
+
 #include <stdlib.h>
 #include "BRSet.h"
 #include "BRInt.h"

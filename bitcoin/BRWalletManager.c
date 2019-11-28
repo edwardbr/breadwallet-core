@@ -843,7 +843,7 @@ bwmFileServiceErrorHandler (BRFileServiceContext context,
     //     BRPeerManagerRescan (bwm->peerManager);
 }
 
-static_on_release BRFileServiceTypeSpecification fileServiceSpecifications[] = {
+static_on_release BRFileServiceTypeSpecification fileServiceSpec[] = {
     {
         fileServiceTypeTransactions,
         WALLET_MANAGER_TRANSACTION_VERSION_1,
@@ -886,9 +886,8 @@ static_on_release BRFileServiceTypeSpecification fileServiceSpecifications[] = {
         }
     }
 };
-static_on_release size_t fileServiceSpecificationsCount = (sizeof (fileServiceSpecifications) / sizeof (BRFileServiceTypeSpecification));
-
-
+static_on_release BRFileServiceTypeSpecification *fileServiceSpecifications = &fileServiceSpec[0];
+static_on_release size_t fileServiceSpecificationsCount = (sizeof(fileServiceSpec) / sizeof(BRFileServiceTypeSpecification));
 
 /// MARK: - Wallet Manager
 
