@@ -22,6 +22,7 @@
 #include "BRBase58.h"
 #include "BRChainParams.h"
 #include "bcash/BRBCashParams.h"
+#include "bsv/BRSVChainParams.h"
 
 #include "support/BRFileService.h"
 #include "ethereum/event/BREvent.h"
@@ -57,10 +58,12 @@ static void _BRWalletManagerTxDeleted (void *info, UInt256 hash, int notifyUser,
 static const char *
 getNetworkName (const BRChainParams *params) {
     if (params->magicNumber == BRMainNetParams->magicNumber ||
+        params->magicNumber == BRSVMainNetParams->magicNumber ||
         params->magicNumber == BRBCashParams->magicNumber)
         return "mainnet";
 
     if (params->magicNumber == BRTestNetParams->magicNumber ||
+        params->magicNumber == BRSVTestNetParams->magicNumber ||
         params->magicNumber == BRBCashTestNetParams->magicNumber)
         return "testnet";
 
@@ -76,6 +79,10 @@ getCurrencyName (const BRChainParams *params) {
     if (params->magicNumber == BRBCashParams->magicNumber ||
         params->magicNumber == BRBCashTestNetParams->magicNumber)
         return "bch";
+
+    if (params->magicNumber == BRSVMainNetParams->magicNumber ||
+        params->magicNumber == BRSVTestNetParams->magicNumber)
+        return "bsv";
 
     return NULL;
 }

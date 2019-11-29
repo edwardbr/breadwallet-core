@@ -67,7 +67,10 @@ static inline int BRChainParamsIsBitcoin (const BRChainParams *params) {
     return BRMainNetParams == params || BRTestNetParams == params;
 }
 
-extern const BRCheckPoint *BRChainParamsGetCheckpointBefore (const BRChainParams *params, uint32_t timestamp);
+extern int BRMainNetVerifyDifficulty(const BRMerkleBlock *block, const BRSet *blockSet);
+extern int BRTestNetVerifyDifficulty(const BRMerkleBlock *block, const BRSet *blockSet);
+
+extern const BRCheckPoint *BRChainParamsGetCheckpointBefore(const BRChainParams *params, uint32_t timestamp);
 
 extern const BRCheckPoint *BRChainParamsGetCheckpointBeforeBlockNumber (const BRChainParams *params, uint32_t blockNumber);
 

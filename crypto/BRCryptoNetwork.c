@@ -15,6 +15,7 @@
 
 #include "bitcoin/BRChainParams.h"
 #include "bcash/BRBCashParams.h"
+#include "bsv/BRSVChainParams.h"
 #include "ethereum/BREthereum.h"
 
 /// MARK: - Network Fee
@@ -268,6 +269,7 @@ cryptoNetworkIsMainnet (BRCryptoNetwork network) {
     switch (network->type) {
         case BLOCK_CHAIN_TYPE_BTC:
             return AS_CRYPTO_BOOLEAN (network->u.btc.params == BRMainNetParams ||
+                                      network->u.btc.params == BRSVMainNetParams ||
                                       network->u.btc.params == BRBCashParams);
         case BLOCK_CHAIN_TYPE_ETH:
             return AS_CRYPTO_BOOLEAN (network->u.eth.net == ethereumMainnet);

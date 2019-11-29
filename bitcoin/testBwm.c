@@ -16,6 +16,7 @@
 
 #include "bcash/BRBCashParams.h"
 #include "bitcoin/BRChainParams.h"
+#include "bsv/BRSVChainParams.h"
 
 #include "BRArray.h"
 #include "BRBIP39Mnemonic.h"
@@ -31,6 +32,10 @@
 #define _va_first(first, ...) first
 #define _va_rest(first, ...) __VA_ARGS__
 #endif
+
+#define IS_BCH 0
+#define IS_BTC 1
+#define IS_BSV 2
 
 ///
 ///
@@ -78,9 +83,24 @@ extern int BRRunTestWalletManagerSync (const char *paperKey,
                                        const char *storagePath,
                                        int isBTC,
                                        int isMainnet) {
-    const BRChainParams *params = (isBTC & isMainnet ? BRMainNetParams
-                                   : (isBTC & !isMainnet ? BRTestNetParams
-                                      : (isMainnet ? BRBCashParams : BRBCashTestNetParams)));
+    const BRChainParams *params = NULL;
+    switch (isBTC)
+    {
+    case IS_BTC:
+        params = isMainnet ? BRMainNetParams : BRTestNetParams;
+        break;
+    case IS_BCH:
+        params = isMainnet ? BRBCashParams : BRBCashTestNetParams;
+        break;
+    case IS_BSV:
+        params = isMainnet ? BRSVMainNetParams : BRSVTestNetParams;
+        break;
+
+    default:
+        //bad case
+        return 0;
+        break;
+    };
 
     uint32_t epoch = 1483228800; // 1/1/17
     epoch += (365 + 365/2) * 24 * 60 * 60;
@@ -564,11 +584,23 @@ BRRunTestWalletManagerSyncBwmSetup (BRSyncMode mode,
     BRMasterPubKey mpk = BRBIP32MasterPubKey(&seed, sizeof (seed));
 
     const BRChainParams *params = NULL;
-    if (isBTC) {
+    switch (isBTC)
+    {
+    case IS_BTC:
         params = isMainnet ? BRMainNetParams : BRTestNetParams;
-    } else {
+        break;
+    case IS_BCH:
         params = isMainnet ? BRBCashParams : BRBCashTestNetParams;
-    }
+        break;
+    case IS_BSV:
+        params = isMainnet ? BRSVMainNetParams : BRSVTestNetParams;
+        break;
+
+    default:
+        //bad case
+        return 0;
+        break;
+    };    
     return BRWalletManagerNew (client, mpk, params, earliestKeyTime, mode, storagePath, blockHeight, 6);
 }
 
@@ -583,12 +615,32 @@ BRRunTestWalletManagerSyncForMode (const char *testName,
                                    int isMainnet) {
     int success = 1;
 
+    const char *blockChainType = NULL;
+
+    switch (isBTC)
+    {
+    case IS_BTC:
+        blockChainType = "btc";
+        break;
+    case IS_BCH:
+        blockChainType = "bch";
+        break;
+    case IS_BSV:
+        blockChainType = "bsv";
+        break;
+
+    default:
+        //bad case
+        return 0;
+        break;
+    };      
+
     printf("%s testing BRWalletManager events for %s mode, %u epoch, %" PRIu64 " height on \"%s:%s\" with %s as storage...\n",
            testName,
            BRSyncModeString (mode),
            earliestKeyTime,
            blockHeight,
-           isBTC ? "btc": "bch",
+           blockChainType,
            isMainnet ? "mainnet" : "testnet",
            storagePath);
 
@@ -1020,13 +1072,33 @@ BRRunTestWalletManagerSyncAllModes (const char *testName,
                                     int isMainnet) {
     int success = 1;
 
+    const char *blockChainType = NULL;
+
+    switch (isBTC)
+    {
+    case IS_BTC:
+        blockChainType = "btc";
+        break;
+    case IS_BCH:
+        blockChainType = "bch";
+        break;
+    case IS_BSV:
+        blockChainType = "bsv";
+        break;
+
+    default:
+        //bad case
+        return 0;
+        break;
+    };  
+
     printf("%s testing BRWalletManager events for %s -> %s modes, %u epoch, %" PRIu64 " height on \"%s:%s\" with %s as storage...\n",
            testName,
            BRSyncModeString (primaryMode),
            BRSyncModeString (secondaryMode),
            earliestKeyTime,
            blockHeight,
-           isBTC ? "btc": "bch",
+           blockChainType,
            isMainnet ? "mainnet" : "testnet",
            storagePath);
 

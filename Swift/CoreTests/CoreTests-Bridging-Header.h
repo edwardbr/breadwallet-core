@@ -25,6 +25,12 @@ extern int BRRunSupTests (void);
 
 extern int BRRunTests();
 
+//non breaking change for the Java/Swift crew
+//if you set isBTC to IS_BSV you will be testing bsv
+#define IS_BCH 0
+#define IS_BTC 1
+#define IS_BSV 2
+
 extern int BRRunTestsSync (const char *paperKey,
                            int isBTC,
                            int isMainnet);

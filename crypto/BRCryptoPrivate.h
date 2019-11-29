@@ -34,6 +34,7 @@
 #include "bitcoin/BRWallet.h"
 #include "bitcoin/BRWalletManager.h"
 #include "bcash/BRBCashParams.h"
+#include "bsv/BRSVChainParams.h"
 #include "ethereum/BREthereum.h"
 #include "generic/BRGeneric.h"
 

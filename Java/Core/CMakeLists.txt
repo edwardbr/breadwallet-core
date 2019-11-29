@@ -110,6 +110,9 @@ target_sources (core
                 src/main/cpp/core/bcash/BRBCashAddr.h
                 src/main/cpp/core/bcash/BRBCashParams.h
                 src/main/cpp/core/bcash/BRBCashParams.c
+                src/main/cpp/core/bsv/BRSVChainParams.h
+                src/main/cpp/core/bsv/BRSVChainParams.c
+
                 )
 
 # Core JNI

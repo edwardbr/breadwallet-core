@@ -1445,16 +1445,18 @@ runCryptoTestsWithAccountAndNetwork (BRCryptoAccount account,
     BRCryptoBoolean isEth = AS_CRYPTO_BOOLEAN (BLOCK_CHAIN_TYPE_ETH == chainType);
     BRCryptoBoolean isBtc = (AS_CRYPTO_BOOLEAN (BLOCK_CHAIN_TYPE_BTC == chainType)
                              && (cryptoNetworkAsBTC (network) == BRMainNetParams || cryptoNetworkAsBTC (network) == BRTestNetParams));
+    BRCryptoBoolean isBsv = (AS_CRYPTO_BOOLEAN (BLOCK_CHAIN_TYPE_BTC == chainType)
+                             && (cryptoNetworkAsBTC (network) == BRSVMainNetParams || cryptoNetworkAsBTC (network) == BRSVTestNetParams));
     BRCryptoBoolean isBch = (AS_CRYPTO_BOOLEAN (BLOCK_CHAIN_TYPE_BTC == chainType)
                              && (cryptoNetworkAsBTC (network) == BRBCashParams || cryptoNetworkAsBTC (network) == BRBCashTestNetParams));
 
-    BRCryptoAddressScheme scheme = ((isBtc || isBch) ?
+    BRCryptoAddressScheme scheme = ((isBtc || isBch || isBsv) ?
                                     CRYPTO_ADDRESS_SCHEME_BTC_LEGACY :
                                     (isEth ?
                                      CRYPTO_ADDRESS_SCHEME_ETH_DEFAULT :
                                      CRYPTO_ADDRESS_SCHEME_GEN_DEFAULT));
 
-    if (isBtc || isEth || isGen) {
+    if (isBtc || isBsv || isEth || isGen) {
         success = AS_CRYPTO_BOOLEAN(runCryptoWalletManagerLifecycleTest (account,
                                                                          network,
                                                                          SYNC_MODE_BRD_ONLY,
@@ -1466,7 +1468,7 @@ runCryptoTestsWithAccountAndNetwork (BRCryptoAccount account,
         }
     }
 
-    if (isBtc || isBch || isEth) {
+    if (isBtc || isBsv || isBch || isEth) {
         success = AS_CRYPTO_BOOLEAN(runCryptoWalletManagerLifecycleTest (account,
                                                                          network,
                                                                          SYNC_MODE_P2P_ONLY,
@@ -1490,7 +1492,7 @@ runCryptoTestsWithAccountAndNetwork (BRCryptoAccount account,
         }
     }
 
-    if (isBtc) {
+    if (isBtc || isBsv) {
         success = AS_CRYPTO_BOOLEAN(runCryptoWalletManagerLifecycleWithSetModeTest (account,
                                                                                     network,
                                                                                     SYNC_MODE_P2P_ONLY,

@@ -23,21 +23,23 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
 
-#include "BRChainParams.h"
+#include "BRSVChainParams.h"
 
-static const char *BRMainNetDNSSeeds[] = {
-    "seed.breadwallet.com.", "seed.bitcoin.sipa.be.", "dnsseed.bluematt.me.", "dnsseed.bitcoin.dashjr.org.",
-    "seed.bitcoinstats.com.", "bitseed.xf2.org.", "seed.bitcoin.jonasschnelli.ch.", NULL
-};
+static const char *BRSVMainNetDNSSeeds[] = {
+    "seed.bitcoinsv.io.",
+    "seed.bitprim.org.",
+    "seed.cascharia.com.",
+    "seed.satoshisvision.network.",
+    NULL};
 
-static const char *BRTestNetDNSSeeds[] = {
-    "testnet-seed.breadwallet.com.", "testnet-seed.bitcoin.petertodd.org.", "testnet-seed.bluematt.me.",
-    "testnet-seed.bitcoin.schildbach.de.", NULL
-};
+static const char *BRSVTestNetDNSSeeds[] = {
+    "testnet-seed.bitcoinsv.io.",
+    "testnet-seed.bitprim.org.", "testnet-seed.deadalnix.me.",
+    "testnet-seeder.criptolayer.net.", NULL};
 
 // blockchain checkpoints - these are also used as starting points for partial chain downloads, so they must be at
 // difficulty transition boundaries in order to verify the block difficulty at the immediately following transition
-static const BRCheckPoint BRMainNetCheckpoints[] = {
+static const BRCheckPoint BRSVMainNetCheckpoints[] = {
     {      0, uint256("000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f"), 1231006505, 0x1d00ffff },
     {  20160, uint256("000000000f1aef56190aee63d33a373e6487132d522ff4cd98ccfc96566d461e"), 1248481816, 0x1d00ffff },
     {  40320, uint256("0000000045861e169b5a961b7034f8de9e98022e7a39100dde3ae3ea240d7245"), 1266191579, 0x1c654657 },
@@ -62,16 +64,15 @@ static const BRCheckPoint BRMainNetCheckpoints[] = {
     { 423360, uint256("000000000000000001630546cde8482cc183708f076a5e4d6f51cd24518e8f85"), 1470163842, 0x18057228 },
     { 443520, uint256("00000000000000000345d0c7890b2c81ab5139c6e83400e5bed00d23a1f8d239"), 1481765313, 0x18038b85 },
     { 463680, uint256("000000000000000000431a2f4619afe62357cd16589b638bb638f2992058d88e"), 1493259601, 0x18021b3e },
-    { 483840, uint256("0000000000000000008e5d72027ef42ca050a0776b7184c96d0d4b300fa5da9e"), 1504704195, 0x1801310b },
-    { 504000, uint256("0000000000000000006cd44d7a940c79f94c7c272d159ba19feb15891aa1ea54"), 1515827554, 0x177e578c },
-    { 524160, uint256("00000000000000000009d1e9bee76d334347060c6a2985d6cbc5c22e48f14ed2"), 1527168053, 0x17415a49 },
-    { 544320, uint256("0000000000000000000a5e9b5e4fbee51f3d53f31f40cd26b8e59ef86acb2ebd"), 1538639362, 0x1725c191 },
-    { 564480, uint256("0000000000000000002567dc317da20ddb0d7ef922fe1f9c2375671654f9006c"), 1551026038, 0x172e5b50 },
-    { 584640, uint256("0000000000000000000e5af6f531133eb548fe3854486ade75523002a1a27687"), 1562663868, 0x171f0d9b }
+    { 483840, uint256("00000000000000000098963251fcfc19d0fa2ef05cf22936a182609f8d650346"), 1503802540, 0x1803c5d5 },
+    { 504000, uint256("0000000000000000006cdeece5716c9c700f34ad98cb0ed0ad2c5767bbe0bc8c"), 1510516839, 0x18021abd },
+    { 524160, uint256("0000000000000000003f40db0a3ed4b4d82b105e212166b2db498d5688bac60f"), 1522711454, 0x18033b64 },
+    { 544320, uint256("000000000000000001619f65f7d5ef7a06ee50d2b459cdf727d74b2a7a762268"), 1534820198, 0x18022f7e },
+    { 604320, uint256("0000000000000000037b3144003c26ce477e384baa056ef74403ccb03b649249"), 1571083058, 0x1808f8b6 }
 //{ 604800,
 };
 
-static const BRCheckPoint BRTestNetCheckpoints[] = {
+static const BRCheckPoint BRSVTestNetCheckpoints[] = {
     {       0, uint256("000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943"), 1296688602, 0x1d00ffff },
     {  100800, uint256("0000000000a33112f86f3f7b0aa590cb4949b84c2d9c673e9e303257b3be9000"), 1376543922, 0x1c00d907 },
     {  201600, uint256("0000000000376bb71314321c45de3015fe958543afcbada242a3b1b072498e38"), 1393813869, 0x1b602ac0 },
@@ -85,72 +86,32 @@ static const BRCheckPoint BRTestNetCheckpoints[] = {
     { 1008000, uint256("000000000000390aca616746a9456a0d64c1bd73661fd60a51b5bf1c92bae5a0"), 1476926743, 0x1a52ccc0 },
     { 1108800, uint256("00000000000288d9a219419d0607fb67cc324d4b6d2945ca81eaa5e739fab81e"), 1490751239, 0x1b09ecf0 },
     { 1209600, uint256("0000000000000026b4692a26f1651bec8e9d4905640bd8e56056c9a9c53badf8"), 1507328506, 0x1973e180 },
-    { 1310400, uint256("0000000000013b434bbe5668293c92ef26df6d6d4843228e8958f6a3d8101709"), 1527038604, 0x1b0ffff0 },
-    { 1411200, uint256("00000000000000008b3baea0c3de24b9333c169e1543874f4202397f5b8502cb"), 1535535770, 0x194ac105 }
     //{ 1512000,
 };
 
-extern int BRMainNetVerifyDifficulty(const BRMerkleBlock *block, const BRSet *blockSet)
-{
-    const BRMerkleBlock *previous, *b = NULL;
-    uint32_t i;
-
-    assert(block != NULL);
-    assert(blockSet != NULL);
-
-    // check if we hit a difficulty transition, and find previous transition block
-    if ((block->height % BLOCK_DIFFICULTY_INTERVAL) == 0) {
-        for (i = 0, b = block; b && i < BLOCK_DIFFICULTY_INTERVAL; i++) {
-            b = BRSetGet(blockSet, &b->prevBlock);
-        }
-    }
-
-    previous = BRSetGet(blockSet, &block->prevBlock);
-    return BRMerkleBlockVerifyDifficulty(block, previous, (b) ? b->timestamp : 0);
-}
-
-extern int BRTestNetVerifyDifficulty(const BRMerkleBlock *block, const BRSet *blockSet)
-{
-    return 1; // XXX skip testnet difficulty check for now
-}
-
-extern const BRCheckPoint *BRChainParamsGetCheckpointBefore (const BRChainParams *params, uint32_t timestamp) {
-    for (ssize_t index = params->checkpointsCount - 1; index >= 0; index--)
-        if (params->checkpoints[index].timestamp < timestamp)
-            return &params->checkpoints[index];
-   return NULL;
-}
-
-extern const BRCheckPoint *BRChainParamsGetCheckpointBeforeBlockNumber (const BRChainParams *params, uint32_t blockNumber) {
-    for (ssize_t index = params->checkpointsCount - 1; index >= 0; index--)
-        if (params->checkpoints[index].height < blockNumber)
-            return &params->checkpoints[index];
-   return NULL;
-}
-
-static const BRChainParams BRMainNetParamsRecord = {
-    BRMainNetDNSSeeds,
+static const BRChainParams BRSVMainNetParamsRecord = {
+    BRSVMainNetDNSSeeds,
     8333,                  // standardPort
-    0xd9b4bef9,            // magicNumber
-    SERVICES_NODE_WITNESS, // services
+    0xe8f3e1e3,            // magicNumber
+    0, // services
     BRMainNetVerifyDifficulty,
-    BRMainNetCheckpoints,
-    sizeof(BRMainNetCheckpoints)/sizeof(*BRMainNetCheckpoints),
+    BRSVMainNetCheckpoints,
+    sizeof(BRSVMainNetCheckpoints)/sizeof(*BRSVMainNetCheckpoints),
     { BITCOIN_PUBKEY_PREFIX, BITCOIN_SCRIPT_PREFIX, BITCOIN_PRIVKEY_PREFIX, BITCOIN_BECH32_PREFIX },
     BITCOIN_FORKID
 };
-const BRChainParams *BRMainNetParams = &BRMainNetParamsRecord;
+const BRChainParams *BRSVMainNetParams = &BRSVMainNetParamsRecord;
 
-static const BRChainParams BRTestNetParamsRecord = {
-    BRTestNetDNSSeeds,
+static const BRChainParams BRSVTestNetParamsRecord = {
+    BRSVTestNetDNSSeeds,
     18333,                 // standardPort
-    0x0709110b,            // magicNumber
-    SERVICES_NODE_WITNESS, // services
+    0xf4f3e5f4,            // magicNumber
+    0, // services
     BRTestNetVerifyDifficulty,
-    BRTestNetCheckpoints,
-    sizeof(BRTestNetCheckpoints)/sizeof(*BRTestNetCheckpoints),
+    BRSVTestNetCheckpoints,
+    sizeof(BRSVTestNetCheckpoints)/sizeof(*BRSVTestNetCheckpoints),
     { BITCOIN_PUBKEY_PREFIX_TEST, BITCOIN_SCRIPT_PREFIX_TEST, BITCOIN_PRIVKEY_PREFIX_TEST, BITCOIN_BECH32_PREFIX_TEST },
     BITCOIN_FORKID
 };
 
-const BRChainParams *BRTestNetParams = &BRTestNetParamsRecord;
+const BRChainParams *BRSVTestNetParams = &BRSVTestNetParamsRecord;
