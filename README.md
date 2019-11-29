@@ -9,9 +9,9 @@ I am compiling using clang 9 but I am sure that a more ancient version of the C 
  - git submodule init
  - git submodule update
  - make
- For btc
+ - #For btc
  - ./test
- For bch
+ - #For bch
  - ./test bch
- For bsv
+ - #For bsv
  - ./test bsv
